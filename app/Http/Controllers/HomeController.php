@@ -24,4 +24,14 @@ class HomeController extends Controller
     {
         return view('signup');
     }
+
+    public function contato()
+    {
+        return view('contato'); // Certifique-se de que o caminho da view está correto
+    }
+
+    public function suporte()
+    {
+        return view('contato'); // Certifique-se de que o caminho da view está correto
+    }
 }
